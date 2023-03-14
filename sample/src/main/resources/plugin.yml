@@ -1,0 +1,4 @@
+name: GUILibSample
+version: '${version}'
+main: com.github.bun133.guilib.sample.GUILibSample
+api-version: 1.19
