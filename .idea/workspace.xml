@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="Add Trigger">
-      <change afterPath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/GUILib.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/event/EventService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/EventTrigger.kt" afterDir="false" />
+    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="Add EventTrigger">
+      <change afterPath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/Scene.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/inventory/ChestScene.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/inventory/InventoryScene.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guilib/src/test/kotlin/com/github/bun133/guilib/inventory/ChestBuilderTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/EventTrigger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/EventTrigger.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +140,30 @@
       <command value="gradlew :GUILibSample:dependencies" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.EffectTest.triggerBuild">
+  <component name="RunManager" selected="Gradle.ChestBuilderTest.buildTest">
+    <configuration name="ChestBuilderTest.buildTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/guilib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.github.bun133.guilib.inventory.ChestBuilderTest.buildTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="EffectTest.build" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -241,27 +273,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="sample [processResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/sample" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="processResources" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="sample build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" value="sample build" />
@@ -286,19 +297,19 @@
     <list>
       <item itemvalue="Gradle.sample build" />
       <item itemvalue="Gradle.GUILib build" />
+      <item itemvalue="Gradle.ChestBuilderTest.buildTest" />
       <item itemvalue="Gradle.EffectTest.build" />
       <item itemvalue="Gradle.EffectTest.triggerBuild" />
       <item itemvalue="Gradle.GUILib [:GUILibSample:dependencies]" />
       <item itemvalue="Gradle.sample [dependencies]" />
-      <item itemvalue="Gradle.sample [processResources]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ChestBuilderTest.buildTest" />
         <item itemvalue="Gradle.EffectTest.triggerBuild" />
         <item itemvalue="Gradle.EffectTest.build" />
         <item itemvalue="Gradle.sample [dependencies]" />
         <item itemvalue="Gradle.GUILib [:GUILibSample:dependencies]" />
-        <item itemvalue="Gradle.sample [processResources]" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +327,7 @@
       <workItem from="1678762553313" duration="2213000" />
       <workItem from="1678768995395" duration="3610000" />
       <workItem from="1678784273642" duration="1409000" />
-      <workItem from="1678785707191" duration="13530000" />
+      <workItem from="1678785707191" duration="16735000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1678017817462</created>
@@ -395,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679034681027</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add EventTrigger">
+      <created>1679038629062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679038629062</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,6 +441,7 @@
     <MESSAGE value="Init" />
     <MESSAGE value="いい感じに" />
     <MESSAGE value="Add Trigger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Trigger" />
+    <MESSAGE value="Add EventTrigger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add EventTrigger" />
   </component>
 </project>

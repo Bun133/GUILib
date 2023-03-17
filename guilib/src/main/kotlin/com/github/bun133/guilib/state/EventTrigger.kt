@@ -3,11 +3,13 @@ package com.github.bun133.guilib.state
 import com.github.bun133.guilib.event.event
 import org.bukkit.event.Event
 
-class EventTrigger<E : Event>(clazz: Class<E>) : Trigger<E>() {
+class EventTrigger<E : Event>(clazz: Class<E>, predicate: (E) -> Boolean = { true }) : Trigger<E>() {
     init {
         event(clazz) {
-            watcher.forEach { w ->
-                w(it)
+            if(predicate(it)){
+                watcher.forEach { w ->
+                    w(it)
+                }
             }
         }
     }
