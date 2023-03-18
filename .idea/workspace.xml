@@ -4,15 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="Add EventTrigger">
+    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="Add Configs">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/guilib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/guilib.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/guilib.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/guilib.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/guilib.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.run/BuildCopy.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/sample/.run/BuildCopy.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.run/Dev.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/sample/.run/Dev.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.run/DevBuild.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/sample/.run/DevBuild.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.run/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/sample/.run/build.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guilib/.run/install.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guilib/sample/.run/install.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/main/java/com/github/bun133/guilib/sample/GUILibSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/main/resources/plugin.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +53,9 @@
     <projectState path="$PROJECT_DIR$/guilib-common">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/guilib/sample">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sample">
       <ProjectState />
     </projectState>
@@ -57,6 +76,9 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/guilib">
+          <activation />
+        </task>
+        <task path="D:\Projects\IDEA\GUILib\guilib\sample">
           <activation />
         </task>
         <projects_view>
@@ -124,6 +146,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\IDEA\GUILib\guilib\sample" />
+      <recent name="D:\Projects\IDEA\GUILib\guilib\run" />
       <recent name="D:\Projects\IDEA\GUILib\sample" />
       <recent name="D:\Projects\IDEA\GUILib\run" />
     </key>
@@ -274,7 +298,7 @@
     <configuration name="sample build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" value="sample build" />
-        <option name="externalProjectPath" value="D:\Projects\IDEA\GUILib\sample" />
+        <option name="externalProjectPath" value="D:\Projects\IDEA\GUILib\guilib\sample" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -330,7 +354,7 @@
       <workItem from="1678768995395" duration="3610000" />
       <workItem from="1678784273642" duration="1409000" />
       <workItem from="1678785707191" duration="16735000" />
-      <workItem from="1679100281417" duration="771000" />
+      <workItem from="1679100281417" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1678017817462</created>
@@ -416,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679038629062</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Configs">
+      <created>1679101083572</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679101083572</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,6 +476,7 @@
     <MESSAGE value="いい感じに" />
     <MESSAGE value="Add Trigger" />
     <MESSAGE value="Add EventTrigger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add EventTrigger" />
+    <MESSAGE value="Add Configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Configs" />
   </component>
 </project>
