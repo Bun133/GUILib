@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="最悪なフォルダ構造を直しました">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/guilib.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/guilib.test.iml" beforeDir="false" />
+    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="頼むJitpack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sample/build.gradle" afterDir="false" />
@@ -346,7 +342,7 @@
       <workItem from="1678784273642" duration="1409000" />
       <workItem from="1678785707191" duration="16735000" />
       <workItem from="1679100281417" duration="1554000" />
-      <workItem from="1679101881312" duration="524000" />
+      <workItem from="1679101881312" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1678017817462</created>
@@ -453,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679102085910</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="頼むJitpack">
+      <created>1679102455744</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679102455744</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,6 +488,7 @@
     <MESSAGE value="Add Configs" />
     <MESSAGE value="最悪なフォルダ構造になりました" />
     <MESSAGE value="最悪なフォルダ構造を直しました" />
-    <option name="LAST_COMMIT_MESSAGE" value="最悪なフォルダ構造を直しました" />
+    <MESSAGE value="頼むJitpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="頼むJitpack" />
   </component>
 </project>
