@@ -1,17 +1,13 @@
-package com.github.bun133.guilib.sample;
+package com.github.bun133.guilib.sample
 
-import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.java.JavaPlugin
 
-public final class Sample extends JavaPlugin {
-
-    @Override
-    public void onEnable() {
+class Sample : JavaPlugin() {
+    override fun onEnable() {
         // Plugin startup logic
-
     }
 
-    @Override
-    public void onDisable() {
+    override fun onDisable() {
         // Plugin shutdown logic
     }
 }
