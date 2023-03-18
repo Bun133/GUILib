@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
-    implementation("com.github.Bun133:GUILib:ad4a3ffc64")
+    implementation("com.github.Bun133:GUILib:0bf006298c")
 }
 
 val targetJavaVersion = 17
