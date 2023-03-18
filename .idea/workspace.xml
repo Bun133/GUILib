@@ -4,47 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="最悪なフォルダ構造になりました">
+    <list default="true" id="76281fda-b5d4-42c3-90a0-c1c92bb75fc4" name="変更" comment="最悪なフォルダ構造を直しました">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/guilib.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/guilib.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/7.5.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/sample/.run/BuildCopy.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/sample/.run/Dev.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/sample/.run/DevBuild.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/sample/.run/build.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/sample/.run/install.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/GUILib.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/Scene.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/event/EventService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/inventory/ChestScene.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/inventory/InventoryScene.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/Effect.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/EffectBuilder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/EventTrigger.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/Trigger.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/main/kotlin/com/github/bun133/guilib/state/Value.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/test/kotlin/com/github/bun133/guilib/inventory/ChestBuilderTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guilib/src/test/kotlin/com/github/bun133/guilib/state/EffectTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sample/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +66,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="guilib" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -384,7 +346,7 @@
       <workItem from="1678784273642" duration="1409000" />
       <workItem from="1678785707191" duration="16735000" />
       <workItem from="1679100281417" duration="1554000" />
-      <workItem from="1679101881312" duration="56000" />
+      <workItem from="1679101881312" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1678017817462</created>
@@ -484,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679101719642</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="最悪なフォルダ構造を直しました">
+      <created>1679102085910</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679102085910</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,6 +484,7 @@
     <MESSAGE value="Add EventTrigger" />
     <MESSAGE value="Add Configs" />
     <MESSAGE value="最悪なフォルダ構造になりました" />
-    <option name="LAST_COMMIT_MESSAGE" value="最悪なフォルダ構造になりました" />
+    <MESSAGE value="最悪なフォルダ構造を直しました" />
+    <option name="LAST_COMMIT_MESSAGE" value="最悪なフォルダ構造を直しました" />
   </component>
 </project>
