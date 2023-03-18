@@ -2,11 +2,14 @@ package com.github.bun133.guilib.inventory
 
 import com.github.bun133.guilib.Scene
 import com.github.bun133.guilib.state.EventTrigger
+import com.github.bun133.guilib.state.Value
+import com.github.bun133.guilib.timing.everyTick
 import org.bukkit.entity.Player
 import org.bukkit.event.inventory.InventoryClickEvent
 import org.bukkit.event.inventory.InventoryCloseEvent
 import org.bukkit.event.inventory.InventoryEvent
 import org.bukkit.inventory.Inventory
+import org.bukkit.inventory.ItemStack
 import org.jetbrains.annotations.Range
 
 /**
@@ -50,6 +53,7 @@ abstract class Slot {
 
     // このSlotがクリックされたときのTrigger
     val click = EventTrigger<InventoryClickEvent>(InventoryClickEvent::class.java) { it.inventory == scene.inventory }
+    val item = SlotItemValue(this)
 }
 
 private fun <E : InventoryEvent> Slot.predicate(e: E) = e.inventory == scene.inventory
@@ -59,3 +63,14 @@ data class SlotLocation(
     val x: @Range(from = 1, to = 9) Int,
     val y: @Range(from = 1, to = 6) Int
 )
+
+class SlotItemValue(private val slot: Slot) : Value<ItemStack?>(null) {
+    init {
+        everyTick {
+            val now = slot.scene.inventory.getItem(slot.location.rawIndex)
+            if (now != value()) {
+                value(now)
+            }
+        }
+    }
+}

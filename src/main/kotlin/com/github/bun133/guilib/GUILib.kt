@@ -1,6 +1,7 @@
 package com.github.bun133.guilib
 
 import com.github.bun133.guilib.event.EventService
+import com.github.bun133.guilib.timing.TickService
 import org.bukkit.plugin.java.JavaPlugin
 
 fun guilib(plugin: JavaPlugin) = guiLib(plugin)
@@ -25,8 +26,10 @@ class GUILib(val plugin: JavaPlugin) {
     }
 
     lateinit var event: EventService
+    lateinit var tick:TickService
 
     private fun setUpService() {
         event = EventService(this)
+        tick = TickService(this)
     }
 }
