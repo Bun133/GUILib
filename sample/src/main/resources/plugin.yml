@@ -1,0 +1,4 @@
+name: sample
+version: '${version}'
+main: com.github.bun133.guilib.sample.Sample
+api-version: 1.19
