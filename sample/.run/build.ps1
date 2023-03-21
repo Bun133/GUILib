@@ -9,7 +9,7 @@ Set-Location $(Split-Path $PSScriptRoot -Parent)
 New-Item -ItemType Directory -Force -Path "run\plugins" | Out-Null
 
 # Mavenの出力ディレクトリからアイテムを取得する
-Get-ChildItem -Path target\*.jar -Exclude original-*.jar |
+Get-ChildItem -Path build\libs\*.jar -Exclude original-*.jar |
 # -sources.jarや-shaded.jarなど(-小文字)の末尾のないjarのみをコピーする
 Where-Object { $_.Name -cNotMatch '-[a-z]+\.jar' } |
 # 編集日でソートする

@@ -1,8 +1,10 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id("java")
     kotlin("jvm") version "1.8.10"
+    id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
 group = "com.github.bun133.guilib"
@@ -23,7 +25,8 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
-    implementation("com.github.Bun133:GUILib:0bf006298c")
+    implementation("com.github.Bun133:GUILib:5e01c12511")
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 val targetJavaVersion = 17
@@ -57,4 +60,13 @@ compileKotlin.kotlinOptions {
 val compileTestKotlin: KotlinCompile by tasks
 compileTestKotlin.kotlinOptions {
     jvmTarget = "17"
+}
+
+
+tasks.named<ShadowJar>("shadowJar") {
+    archiveClassifier.set(null as String?)
+}
+
+tasks.named("build"){
+    dependsOn("shadowJar")
 }
