@@ -12,13 +12,17 @@ class ButtonScene : Scene() {
     private val scene = chestBuilder(3) {
         slot(1, 1) {
             var b = false
-            item.value(ItemStack(Material.GRAY_WOOL))
+            fun setItem() {
+                this@slot.item.value(ItemStack(if (b) Material.GREEN_WOOL else Material.GRAY_WOOL))
+            }
+
+            setItem()
             effect {
                 on(this@slot.click) {
                     it.whoClicked.sendMessage(Component.text("You Clicked Me!"))
                     it.isCancelled = true
                     b = !b
-                    this@slot.item.value(ItemStack(if (b) Material.GREEN_WOOL else Material.GRAY_WOOL))
+                    setItem()
                 }
             }
         }

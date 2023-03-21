@@ -25,7 +25,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
-    implementation("com.github.Bun133:GUILib:5e01c12511")
+    implementation("com.github.Bun133:GUILib:ea392dd68c")
     implementation(kotlin("stdlib-jdk8"))
 }
 
