@@ -9,7 +9,8 @@ open class Value<V>(protected var v: V) : Trigger<V>() {
         notify()
     }
 
-    protected fun notify(){
+    @JvmName("notify1")
+    protected fun notify() {
         watcher.forEach {
             it(v)
         }
