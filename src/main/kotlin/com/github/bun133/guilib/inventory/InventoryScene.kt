@@ -52,7 +52,8 @@ abstract class Slot {
     internal abstract val scene: InventoryScene
 
     // このSlotがクリックされたときのTrigger
-    val click = EventTrigger<InventoryClickEvent>(InventoryClickEvent::class.java) { it.inventory == scene.inventory }
+    val click =
+        EventTrigger<InventoryClickEvent>(InventoryClickEvent::class.java) { it.inventory == scene.inventory && it.rawSlot == location.rawIndex }
     val item = SlotItemValue(this)
 }
 
