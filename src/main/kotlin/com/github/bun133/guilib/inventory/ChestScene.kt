@@ -7,8 +7,8 @@ import org.jetbrains.annotations.Range
 
 class ChestScene(height: @Range(from = 1, to = 6) Int, title: Component?) : InventoryScene() {
     override val inventory: Inventory =
-        if (title != null) Bukkit.createInventory(null, height, title)
-        else Bukkit.createInventory(null, height)
+        if (title != null) Bukkit.createInventory(null, height * 9, title)
+        else Bukkit.createInventory(null, height * 9)
 
     private val slots = generateSlots(height, this)
     override fun getSlotAt(x: @Range(from = 1, to = 9) Int, y: @Range(from = 1, to = 6) Int): ChestSlot? {
