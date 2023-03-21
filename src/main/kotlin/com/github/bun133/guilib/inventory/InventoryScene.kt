@@ -68,9 +68,16 @@ class SlotItemValue(private val slot: Slot) : Value<ItemStack?>(null) {
     init {
         everyTick {
             val now = slot.scene.inventory.getItem(slot.location.rawIndex)
-            if (now != value()) {
-                value(now)
+            if (now != this.v) {
+                this.v = now
+                notify()
             }
         }
+    }
+
+    override fun value(v: ItemStack?) {
+        slot.scene.inventory.setItem(slot.location.rawIndex, v)
+        this.v = v
+        notify()
     }
 }
